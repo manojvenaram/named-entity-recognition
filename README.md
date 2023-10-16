@@ -6,7 +6,7 @@ To develop an LSTM-based model for recognizing the named entities in the text.
 
 ## Problem Statement and Dataset
 In this experiment, bidirectional recurrent neural networks are used to construct an LSTM-based neural network model for named entity recognition. Each sentence in the dataset has a large number of terms and their accompanying tags. We vectorize these sentences using Embedding techniques to train our model.Recurrent neural networks that function in both directions can combine the outputs of two hidden layers. This kind of generative deep learning allows the output layer to receive input from both past and future states concurrently.
-<img width="316" alt="Screenshot 2023-10-13 at 3 39 22 PM" src="https://github.com/KoduruSanathKumarReddy/named-entity-recognition/assets/69503902/827e9eb6-9477-4bd5-9d8e-7bf85062104a">
+![](1.png)
 
 ## DESIGN STEPS
 
@@ -181,14 +181,12 @@ for w, true, pred in zip(X_test[i], y_true, p[0]):
 ## OUTPUT
 
 ### Training Loss, Validation Loss Vs Iteration Plot
-
-<img width="798" alt="Screenshot 2023-10-09 at 4 22 37 PM" src="https://github.com/KoduruSanathKumarReddy/named-entity-recognition/assets/69503902/b3a72eb4-22d9-409c-a114-b70cd2bf05cf">
-<img width="808" alt="Screenshot 2023-10-09 at 4 22 19 PM" src="https://github.com/KoduruSanathKumarReddy/named-entity-recognition/assets/69503902/e8480a27-4888-42f2-a921-a5f9397a43f2">
-
+![](4.png)
+![](2.png)
 
 ### Sample Text Prediction
 
-<img width="780" alt="Screenshot 2023-10-09 at 4 21 30 PM" src="https://github.com/KoduruSanathKumarReddy/named-entity-recognition/assets/69503902/545267f2-0a74-4a82-a28f-2986da129b30">
+![](3.png)
 
 ## RESULT
 Therefore an LSTM-based deep learning model for recognizing the named entities in the text is successfully develooped.
