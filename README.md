@@ -32,8 +32,8 @@ create , compile and fit the dataset
 Make prediction with sample text
 ## PROGRAM
 ~~~
-Developed by: Koduru Sanath Kumar Reddy
-Reg no: 212221240024
+Developed by: Manoj Choudhary V
+Reg no: 212221240025
 ~~~
 
 ## Importing the required packages
